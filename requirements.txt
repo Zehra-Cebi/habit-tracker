@@ -1,0 +1,5 @@
+# Required packages for the Habit Tracker app
+questionary # for CLI
+pytest # for unit testing
+pytest-cov # for code coverage reports
+freezegun # for freezing dates during testings
