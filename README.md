@@ -51,21 +51,19 @@ Open htmlcov/index.html in your browser to view it.
 ## Project structure
 
 habit_tracker/
-├── src/                      
-│   ├── __init__.py           # Makes src a package
-│   ├── habit.py              # Habit class
-│   ├── habit_manager.py      # HabitManager class
-│   ├── analyze.py            # Tools for analytics
-│   ├── db.py                 # SQLite database handling
-│   └── fixtures.py           # Predefined habit data for testing/demo
-│
-├── tests/                    # Test modules
-│   ├── __init__.py           # Makes tests a package
-│   ├── test_habit.py             
-│   ├── test_habit_manager.py      
-│   ├── test_analyze.py            
-│   └── test_db.py                 
-│
+├── src/
+│   ├── __init__.py          # Makes src a package
+│   ├── habit.py             # Habit class
+│   ├── habit_manager.py     # HabitManager class
+│   ├── analyze.py           # Tools for analytics
+│   ├── db.py                # SQLite database handling
+│   └── fixtures.py          # Predefined habit data for testing/demo
+├── tests/                   # Test modules
+│   ├── __init__.py          # Makes tests a package
+│   ├── test_habit.py
+│   ├── test_habit_manager.py
+│   ├── test_analyze.py
+│   └── test_db.py
 ├── main.py                  # Entry point for CLI with questionary-powered menu
 ├── .env                     # PYTHONPATH configuration
 ├── .gitignore               # Files and folders to exclude from GitHub
